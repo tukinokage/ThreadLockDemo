@@ -7,7 +7,7 @@ public class ClassLock {
 
         ThreadTest threadTest = new ThreadTest();
 
-        //类锁5s
+        //对类.class锁5s
         new Thread(){
             @Override
             public void run() {
