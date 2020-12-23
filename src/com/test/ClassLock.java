@@ -11,7 +11,7 @@ public class ClassLock {
         new Thread(){
             @Override
             public void run() {
-                ThreadTest.staticMethodLock();
+                ThreadTest.classLock();
             }
         }.start();
 
